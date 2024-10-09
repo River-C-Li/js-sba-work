@@ -182,12 +182,14 @@ function idPairScores(objects) {
   //   1: flatArray[6],
   //   2: flatArray[7]
   // };
-  // console.log(finaltranscript) /////// try to make a format with key name, but still unfinished, -------The End.
-
-   // final output: { '125': [ 0.985, 0.94, 3 ], 
-  //                 '132': [ 0.895, 0.78, 2.8 ] }
+  // console.log(finaltranscript) /////// try to make a format with key name, but still unfinished, -.
 
 
+   // final output: 
+ //  { '125': [ 0.985, 0.94, 3 ], 
+  //   '132': [ 0.895, 0.78, 2.8 ] }
+
+// ------The End
 
 
   
