@@ -64,7 +64,7 @@ try{
 LearnerSubmissions[0].submission.forEach(obj => {
     obj.forEach(item => {
         if (item.submitted_at > AssignmentGroup[0].assignments[0].due_at) {
-            item.score -= 15; // conditional detuct 15 /////////hard to access to "submitted_at" and "score",  catcy erro.
+            item.score -= 15; // conditional detuct 15 /////////hard to access to "submitted_at" and "score",  catch error.
         }else {
           item.score == item.score
         }
