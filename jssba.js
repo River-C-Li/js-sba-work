@@ -72,7 +72,7 @@ LearnerSubmissions[0].submission.forEach(obj => {
   });
   console.log(LearnerSubmissions[0].submission.score)      
 } catch (error) {
-  console.log("erro")     
+  console.log("Error.")     
 } finally{
   console.log("OOPS! Hard to access to your submitted time, so your later submission still scores original.")
 }
@@ -186,6 +186,8 @@ function idPairScores(objects) {
 
 
    // final output: 
+//   Error.
+//   OOPS! Hard to access to your submitted time, so your later submission still scores original.
  //  { '125': [ 0.985, 0.94, 3 ], 
   //   '132': [ 0.895, 0.78, 2.8 ] }
 
