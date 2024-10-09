@@ -167,9 +167,6 @@ function idPairScores(objects) {
   const flattenedObj = flattenArraysInObject(result);
   console.log(flattenedObj);                   ///////////////////////////////flatten results, finished.
 
-  // final output: { '125': [ 0.985, 0.94, 3 ], 
-  //                 '132': [ 0.895, 0.78, 2.8 ] }
-
 
   // const entries = Object.entries(flattenedObj);
   // // console.log(entries)
@@ -187,7 +184,8 @@ function idPairScores(objects) {
   // };
   // console.log(finaltranscript) /////// try to make a format with key name, but still unfinished, -------The End.
 
- 
+   // final output: { '125': [ 0.985, 0.94, 3 ], 
+  //                 '132': [ 0.895, 0.78, 2.8 ] }
 
 
 
